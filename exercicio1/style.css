@@ -1,0 +1,76 @@
+body{
+	margin:0;
+	padding:0;
+	background:#fff;
+	font-family: 'Raleway',sans-serif;
+	color: #fff;
+}
+.corpo{
+	height: 100vh;
+	width: 100%;
+	background:url("/img/banner.jpg"),url("/img/banner.jpg");
+	background-position: top;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.corpo .navbar{
+	margin-top:4%;
+}
+.corpo .navbar-brand{
+	color: #fff;
+	font-size:1.8em;
+	font-weight: 700;
+	margin-left: 10%;
+    cursor: pointer;
+}
+.corpo .nav{
+	margin-right:10%; 
+}
+.corpo .nav li a{
+	color:#ffffff;
+	font-size: 1.2em;
+}
+.corpo .nav li a:hover{
+	color:#000000;
+	font-size: 1.2em;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border:solid #000000 0.5px;
+}
+
+.corpo .texto{
+	margin-top:15%;
+	transform: translateY(-15%);
+}
+.corpo .texto h1{
+	font-size: 2.5em;
+	font-weight: 700;
+	color: white;
+	letter-spacing: 2px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+.corpo .texto p{
+	font-size: 2em;
+	font-weight: 500;
+	color: #fefefe;
+	letter-spacing: 2px;
+    border-radius: 10px;
+}
+.corpo .texto a{
+	margin-left:50%;
+	transform: translateX(-50%);
+	color: #000000;
+	background: #ffffff;
+	padding:10px 20px; 
+	font-size: 2em;
+	font-weight: 600;
+}
+.corpo .texto a:hover{
+	background: #000000;
+    color: white;
+}
+
+.btn {
+border-radius: 10px;
+}
